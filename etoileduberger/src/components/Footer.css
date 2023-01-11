@@ -1,0 +1,21 @@
+
+
+#Contacter{
+    color:white;
+    text-decoration: underline;
+    text-decoration-thickness: 0.1vw;
+    margin:1vw;
+    font-size: 2.3vw;
+    margin-right:auto;
+    margin-left: auto;
+}
+#FooterMain{
+    display:block;
+    width:100%;
+    margin:0;
+    height:4.4vw;
+    
+    line-height: 4.4vw;
+    text-align: center;
+    background-color: #171D40;
+}

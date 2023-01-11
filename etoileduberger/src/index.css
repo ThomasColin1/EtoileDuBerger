@@ -1,0 +1,26 @@
+@import url('https://fonts.cdnfonts.com/css/alex-brush');
+body {
+  margin: 0;
+  font-family: 'Alex Brush';
+  color:white;
+  background-color: #29266A;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.link{
+  color:white;
+  text-decoration: none;
+}
+a{
+  color:white;
+  text-decoration: none;
+}
+.underlineText{
+  text-decoration: underline;
+}
+

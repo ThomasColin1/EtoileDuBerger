@@ -1,0 +1,37 @@
+
+#headerMain{
+    font-size: 4vw;
+    background-color: #4E4B90 ;
+    margin:0;
+    text-align:center;
+}
+#title{
+    margin:0;
+    font-size: 4vw;
+}
+#line{
+    background-color: white;
+    height:0.1vw;
+    width:15vw;
+    margin-left:auto;
+    margin-right:auto;
+}
+#menu{
+    margin-top:0vw;
+    display:grid;
+    grid-template-columns: repeat(5,1fr);
+    width:75vw;
+    margin-left:auto;
+    margin-right:auto;
+}
+#menu p{
+    margin-top:1.5vw;
+    margin-bottom:1vw;
+    font-size: 2vw;
+}
+#starImg{
+    height:10vw;
+    position:absolute;
+    top:0px;
+    right:0px;
+}

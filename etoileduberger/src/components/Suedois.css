@@ -1,0 +1,112 @@
+#sudeoisBody{
+    display: flex;
+    flex-wrap: wrap;
+}
+p{
+    display:block;
+    font-size: 1.5vw;
+}
+#divFlex{
+    
+    flex-basis: 60%;
+}
+#sudeoisText1{
+    margin-top:3vw;
+    margin-left:2vw;
+}
+#sudeoisText3{
+    margin-top:3vw;
+    margin-left:2vw;
+}
+#sudeoisText5{
+    margin-top:3vw;
+    margin-left:2vw;
+    flex-basis: 100%;
+}
+
+#sudeoisText2{
+    margin-top:2vw;
+    margin-left:10vw;
+    flex-basis: 30%;
+}
+#sudeoisText4{
+    margin-top:2vw;
+    margin-left:10vw;
+    flex-basis: 30%;
+}
+#sudeoisText6{
+    margin-top:0vw;
+    margin-left:10vw;
+    flex-basis: 100%;
+}
+#cardElement{
+    display:block;
+    margin-left:5vw;
+    margin-top:5vw;
+    border-radius: 12px;
+    width:17vw;
+    background-color: none;
+}
+#cardElement img{
+    border-radius: 12px;;
+    width:17vw;
+    height:19vw;
+    object-fit: cover;
+    background-color: grey;
+    margin-left:auto;
+    margin-right:auto;
+    z-index: 0;
+}
+
+#cardElement div{
+    background-color: #212041;
+    border-radius: 47px 0px 12px 12px;
+    position:relative;
+    width:17vw;
+    height:7vw;
+    object-fit: cover;
+    margin-top:-5vw;
+    margin-left:auto;
+    margin-right:auto;
+    z-index: 1;
+    text-align:center;
+    transition: 0.2s;
+}
+
+#cardElement:hover div{
+    
+    border-radius: 0px 0px 12px 12px;
+    margin-top:-6vw;
+    height:8vw;
+}
+#cardElement div div{
+    position:static;
+}
+.cardTitle{
+    padding-top:1.5vw;
+    font-size: 2vw;
+    margin:0vw;
+    margin-left:auto;
+    margin-right:auto;
+}
+.prix1{
+    
+    font-size: 1.2vw;
+    position: absolute;
+    bottom:0.1vw;
+    left:0.5vw;
+    margin:0vw;
+}
+.prix2{
+
+    font-size: 1.2vw;
+    position: absolute;
+    bottom:0.1vw;
+    right:0.5vw;
+    margin:0vw;
+}
+#footerSuedois{
+
+    display:block;
+    height:4.4vw;
+}
