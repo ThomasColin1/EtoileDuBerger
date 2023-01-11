@@ -1,3 +1,4 @@
+
 #accueilMain{
     margin:0;
     min-height: 100vh;
@@ -57,14 +58,14 @@
 #accueilCards div div div{
     position:static;
 }
-.cardTitle{
+div .cardTitle{
     padding-top:1.5vw;
     font-size: 2vw;
     margin:0vw;
     margin-left:auto;
     margin-right:auto;
 }
-.prix1{
+div .prix1{
     
     font-size: 1.2vw;
     position: absolute;
@@ -72,11 +73,75 @@
     left:0.5vw;
     margin:0vw;
 }
-.prix2{
+div .prix2{
 
     font-size: 1.2vw;
     position: absolute;
     bottom:0.1vw;
     right:0.5vw;
     margin:0vw;
+}
+
+@media all and (orientation: portrait){
+    #accueilMain{
+        height:100vh;
+    }
+    #accueilCards{
+        margin-top:4vw;
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+        
+        margin-left:auto;
+        margin-right:auto;
+        
+    }
+    #accueilCards div{
+        margin-top:5vw;
+        width:40vw;
+    }
+    #accueilCards div img{
+        border-radius: 12px;;
+        width:40vw;
+        height:40vw;
+    }
+    #accueilCards div div{
+        background-color: #212041;
+        border-radius: 20px 0px 12px 12px;
+        width:40vw;
+        height:15vw;
+        margin-top:-15vw;
+    }
+    #accueilCards div:hover div{
+        background-color: #212041;
+        border-radius: 0px 0px 12px 12px;
+        width:40vw;
+        height:15vw;
+        margin-top:-15vw;
+    }
+    #accueilCards div .cardTitle{
+        padding-top:4vw;
+        font-size: 5vw;
+    }
+    #accueilCards div .prix1{
+        
+        font-size:2.5vw;
+        position: absolute;
+        bottom:0.1vw;
+        left:2vw;
+        margin:0vw;
+    }
+    #accueilCards div .prix2{
+    
+        font-size:2.5vw;
+        position: absolute;
+        bottom:0.1vw;
+        right:2vw;
+        margin:0vw;
+    }
+    
+    #footerAccueil{
+        position:absolute;
+        width:100vw;
+    }
+    
 }

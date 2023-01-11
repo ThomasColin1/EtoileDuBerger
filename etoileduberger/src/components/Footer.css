@@ -19,3 +19,22 @@
     text-align: center;
     background-color: #171D40;
 }
+@media all and (orientation: portrait){
+    
+#Contacter{
+    padding-top:2.5vw;
+    font-size: 5vw;
+    margin-right:auto;
+    margin-left: auto;
+}
+#FooterMain{
+    display:block;
+    width:100%;
+    margin:0;
+    height:9vw;
+    
+    line-height: 4.4vw;
+    text-align: center;
+    background-color: #171D40;
+}
+}
