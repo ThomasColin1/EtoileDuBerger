@@ -81,6 +81,14 @@ div .prix2{
     right:0.5vw;
     margin:0vw;
 }
+div .prix3{
+
+    font-size: 1.2vw;
+    position: absolute;
+    bottom:1.5vw;
+    left:0.5vw;
+    margin:0vw;
+}
 
 @media all and (orientation: portrait){
     #accueilMain{

@@ -90,7 +90,8 @@ p{
     margin-left:auto;
     margin-right:auto;
 }
-.prix1{
+
+div .prix1{
     
     font-size: 1.2vw;
     position: absolute;
@@ -98,12 +99,20 @@ p{
     left:0.5vw;
     margin:0vw;
 }
-.prix2{
+div .prix2{
 
     font-size: 1.2vw;
     position: absolute;
     bottom:0.1vw;
     right:0.5vw;
+    margin:0vw;
+}
+div .prix3{
+
+    font-size: 1.2vw;
+    position: absolute;
+    bottom:1.5vw;
+    left:0.5vw;
     margin:0vw;
 }
 #footerCristal{

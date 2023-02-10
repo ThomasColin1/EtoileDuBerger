@@ -17,18 +17,21 @@ function Contact() {
                 <div><img src={phone} className="contactBackground"/>
                     <p className="contactText1">Téléphone</p>
                     <img src={phoneicon} className="iconContact"/>
-                    <a href="tel:0783140556" className="contactText2">07.83.14.05.56</a>
+                    {/* <a href="tel:0783140556" className="contactText2">07.83.14.05.56</a> */}
+                    <p className="contactText2">07.83.14.05.56</p>
                 </div>
                 
                 <div><img src={mail} className="contactBackground"/>
                     <p className="contactText1">Mail</p>
                     <img src={mailicon} className="iconContact"/>
-                    <a href="mailto:letoileduberger72@gmail.com" className="contactText2">letoileduberger72@gmail.com</a>
+                    {/* <a href="mailto:letoileduberger72@gmail.com" className="contactText2">letoileduberger72@gmail.com</a> */}
+                    <p className="contactText2">letoileduberger72@gmail.com</p>
                 </div>
                 <div><img src={facebook} className="contactBackground"/>
                     <p className="contactText1">Facebook</p>
                     <img src={facebookicon} className="iconContact"/>
-                    <a href="https://www.facebook.com/ki.la.1806253" className="contactText2">Ciel de Cristal</a>
+                    {/* <a href="https://www.facebook.com/ki.la.1806253" className="contactText2">Ciel de Cristal</a> */}
+                    <p className="contactText2">Ciel de Cristal</p>
                 </div>
             </div>
             

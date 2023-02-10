@@ -13,8 +13,9 @@ function Cristal() {
                 <div>
                     <div>
                         <p className="cardTitle">Ciel de Cristal</p>
-                        <p className="prix1">20€ - 20min</p>
-                        <p className="prix1">60€ - 1h00</p>
+                        <p className="prix1">30€ - 30min</p>
+                        <p className="prix2">40€ - 40min</p>
+                        <p className="prix3">20€ - 20min</p>
                     </div>
                 </div>
             </div>
